@@ -7,7 +7,7 @@
   <xacro:include filename="panda.transmission.xacro"/>
   <!-- end for gazebo -->
   
-  <xacro:panda_arm safety_distance="0.03"/>
+  <xacro:panda_arm/>
 
   <!-- for gazebo -->
   <xacro:arg name="robot_name" default="panda"/>
